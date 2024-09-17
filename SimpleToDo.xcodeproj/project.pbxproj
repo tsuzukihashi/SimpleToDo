@@ -110,9 +110,9 @@
 		2E4BBD822C991CF10094D793 /* SimpleToDo */ = {
 			isa = PBXGroup;
 			children = (
-				2E4BBD832C991CF10094D793 /* SimpleToDoApp.swift */,
 				2E4BBDBB2C9924AE0094D793 /* Service */,
 				2E4BBDBA2C9924A00094D793 /* Interface */,
+				2E4BBD832C991CF10094D793 /* SimpleToDoApp.swift */,
 				2E4BBD872C991CF20094D793 /* Assets.xcassets */,
 				2E4BBD8E2C991CF20094D793 /* SimpleToDo.xcdatamodeld */,
 				2E4BBD892C991CF20094D793 /* Preview Content */,

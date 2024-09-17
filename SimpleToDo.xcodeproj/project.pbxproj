@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E4BBD842C991CF10094D793 /* SimpleToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BBD832C991CF10094D793 /* SimpleToDoApp.swift */; };
+		2E4BBD862C991CF10094D793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BBD852C991CF10094D793 /* ContentView.swift */; };
+		2E4BBD882C991CF20094D793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4BBD872C991CF20094D793 /* Assets.xcassets */; };
+		2E4BBD8B2C991CF20094D793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4BBD8A2C991CF20094D793 /* Preview Assets.xcassets */; };
+		2E4BBD8D2C991CF20094D793 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BBD8C2C991CF20094D793 /* Persistence.swift */; };
+		2E4BBD902C991CF20094D793 /* SimpleToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BBD8E2C991CF20094D793 /* SimpleToDo.xcdatamodeld */; };
+		2E4BBD9A2C991CF30094D793 /* SimpleToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BBD992C991CF30094D793 /* SimpleToDoTests.swift */; };
+		2E4BBDA42C991CF30094D793 /* SimpleToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BBDA32C991CF30094D793 /* SimpleToDoUITests.swift */; };
+		2E4BBDA62C991CF30094D793 /* SimpleToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BBDA52C991CF30094D793 /* SimpleToDoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E4BBD962C991CF30094D793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4BBD782C991CF10094D793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4BBD7F2C991CF10094D793;
+			remoteInfo = SimpleToDo;
+		};
+		2E4BBDA02C991CF30094D793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4BBD782C991CF10094D793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4BBD7F2C991CF10094D793;
+			remoteInfo = SimpleToDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E4BBD802C991CF10094D793 /* SimpleToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4BBD832C991CF10094D793 /* SimpleToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToDoApp.swift; sourceTree = "<group>"; };
+		2E4BBD852C991CF10094D793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E4BBD872C991CF20094D793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E4BBD8A2C991CF20094D793 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E4BBD8C2C991CF20094D793 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2E4BBD8F2C991CF20094D793 /* SimpleToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleToDo.xcdatamodel; sourceTree = "<group>"; };
+		2E4BBD952C991CF30094D793 /* SimpleToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4BBD992C991CF30094D793 /* SimpleToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToDoTests.swift; sourceTree = "<group>"; };
+		2E4BBD9F2C991CF30094D793 /* SimpleToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4BBDA32C991CF30094D793 /* SimpleToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToDoUITests.swift; sourceTree = "<group>"; };
+		2E4BBDA52C991CF30094D793 /* SimpleToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E4BBD7D2C991CF10094D793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4BBD922C991CF30094D793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4BBD9C2C991CF30094D793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E4BBD772C991CF10094D793 = {
+			isa = PBXGroup;
+			children = (
+				2E4BBD822C991CF10094D793 /* SimpleToDo */,
+				2E4BBD982C991CF30094D793 /* SimpleToDoTests */,
+				2E4BBDA22C991CF30094D793 /* SimpleToDoUITests */,
+				2E4BBD812C991CF10094D793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E4BBD812C991CF10094D793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E4BBD802C991CF10094D793 /* SimpleToDo.app */,
+				2E4BBD952C991CF30094D793 /* SimpleToDoTests.xctest */,
+				2E4BBD9F2C991CF30094D793 /* SimpleToDoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E4BBD822C991CF10094D793 /* SimpleToDo */ = {
+			isa = PBXGroup;
+			children = (
+				2E4BBD832C991CF10094D793 /* SimpleToDoApp.swift */,
+				2E4BBD852C991CF10094D793 /* ContentView.swift */,
+				2E4BBD872C991CF20094D793 /* Assets.xcassets */,
+				2E4BBD8C2C991CF20094D793 /* Persistence.swift */,
+				2E4BBD8E2C991CF20094D793 /* SimpleToDo.xcdatamodeld */,
+				2E4BBD892C991CF20094D793 /* Preview Content */,
+			);
+			path = SimpleToDo;
+			sourceTree = "<group>";
+		};
+		2E4BBD892C991CF20094D793 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E4BBD8A2C991CF20094D793 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E4BBD982C991CF30094D793 /* SimpleToDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E4BBD992C991CF30094D793 /* SimpleToDoTests.swift */,
+			);
+			path = SimpleToDoTests;
+			sourceTree = "<group>";
+		};
+		2E4BBDA22C991CF30094D793 /* SimpleToDoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E4BBDA32C991CF30094D793 /* SimpleToDoUITests.swift */,
+				2E4BBDA52C991CF30094D793 /* SimpleToDoUITestsLaunchTests.swift */,
+			);
+			path = SimpleToDoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E4BBD7F2C991CF10094D793 /* SimpleToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4BBDA92C991CF30094D793 /* Build configuration list for PBXNativeTarget "SimpleToDo" */;
+			buildPhases = (
+				2E4BBD7C2C991CF10094D793 /* Sources */,
+				2E4BBD7D2C991CF10094D793 /* Frameworks */,
+				2E4BBD7E2C991CF10094D793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleToDo;
+			productName = SimpleToDo;
+			productReference = 2E4BBD802C991CF10094D793 /* SimpleToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E4BBD942C991CF30094D793 /* SimpleToDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4BBDAC2C991CF30094D793 /* Build configuration list for PBXNativeTarget "SimpleToDoTests" */;
+			buildPhases = (
+				2E4BBD912C991CF30094D793 /* Sources */,
+				2E4BBD922C991CF30094D793 /* Frameworks */,
+				2E4BBD932C991CF30094D793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4BBD972C991CF30094D793 /* PBXTargetDependency */,
+			);
+			name = SimpleToDoTests;
+			productName = SimpleToDoTests;
+			productReference = 2E4BBD952C991CF30094D793 /* SimpleToDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E4BBD9E2C991CF30094D793 /* SimpleToDoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4BBDAF2C991CF30094D793 /* Build configuration list for PBXNativeTarget "SimpleToDoUITests" */;
+			buildPhases = (
+				2E4BBD9B2C991CF30094D793 /* Sources */,
+				2E4BBD9C2C991CF30094D793 /* Frameworks */,
+				2E4BBD9D2C991CF30094D793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4BBDA12C991CF30094D793 /* PBXTargetDependency */,
+			);
+			name = SimpleToDoUITests;
+			productName = SimpleToDoUITests;
+			productReference = 2E4BBD9F2C991CF30094D793 /* SimpleToDoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E4BBD782C991CF10094D793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2E4BBD7F2C991CF10094D793 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2E4BBD942C991CF30094D793 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2E4BBD7F2C991CF10094D793;
+					};
+					2E4BBD9E2C991CF30094D793 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2E4BBD7F2C991CF10094D793;
+					};
+				};
+			};
+			buildConfigurationList = 2E4BBD7B2C991CF10094D793 /* Build configuration list for PBXProject "SimpleToDo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E4BBD772C991CF10094D793;
+			productRefGroup = 2E4BBD812C991CF10094D793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E4BBD7F2C991CF10094D793 /* SimpleToDo */,
+				2E4BBD942C991CF30094D793 /* SimpleToDoTests */,
+				2E4BBD9E2C991CF30094D793 /* SimpleToDoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E4BBD7E2C991CF10094D793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4BBD8B2C991CF20094D793 /* Preview Assets.xcassets in Resources */,
+				2E4BBD882C991CF20094D793 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4BBD932C991CF30094D793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4BBD9D2C991CF30094D793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E4BBD7C2C991CF10094D793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4BBD8D2C991CF20094D793 /* Persistence.swift in Sources */,
+				2E4BBD862C991CF10094D793 /* ContentView.swift in Sources */,
+				2E4BBD842C991CF10094D793 /* SimpleToDoApp.swift in Sources */,
+				2E4BBD902C991CF20094D793 /* SimpleToDo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4BBD912C991CF30094D793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4BBD9A2C991CF30094D793 /* SimpleToDoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4BBD9B2C991CF30094D793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4BBDA62C991CF30094D793 /* SimpleToDoUITestsLaunchTests.swift in Sources */,
+				2E4BBDA42C991CF30094D793 /* SimpleToDoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E4BBD972C991CF30094D793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4BBD7F2C991CF10094D793 /* SimpleToDo */;
+			targetProxy = 2E4BBD962C991CF30094D793 /* PBXContainerItemProxy */;
+		};
+		2E4BBDA12C991CF30094D793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4BBD7F2C991CF10094D793 /* SimpleToDo */;
+			targetProxy = 2E4BBDA02C991CF30094D793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E4BBDA72C991CF30094D793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E4BBDA82C991CF30094D793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E4BBDAA2C991CF30094D793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleToDo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tsuzuki817.SimpleToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E4BBDAB2C991CF30094D793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleToDo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tsuzuki817.SimpleToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E4BBDAD2C991CF30094D793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tsuzuki817.SimpleToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleToDo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleToDo";
+			};
+			name = Debug;
+		};
+		2E4BBDAE2C991CF30094D793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tsuzuki817.SimpleToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleToDo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleToDo";
+			};
+			name = Release;
+		};
+		2E4BBDB02C991CF30094D793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tsuzuki817.SimpleToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleToDo;
+			};
+			name = Debug;
+		};
+		2E4BBDB12C991CF30094D793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tsuzuki817.SimpleToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleToDo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E4BBD7B2C991CF10094D793 /* Build configuration list for PBXProject "SimpleToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4BBDA72C991CF30094D793 /* Debug */,
+				2E4BBDA82C991CF30094D793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E4BBDA92C991CF30094D793 /* Build configuration list for PBXNativeTarget "SimpleToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4BBDAA2C991CF30094D793 /* Debug */,
+				2E4BBDAB2C991CF30094D793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E4BBDAC2C991CF30094D793 /* Build configuration list for PBXNativeTarget "SimpleToDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4BBDAD2C991CF30094D793 /* Debug */,
+				2E4BBDAE2C991CF30094D793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E4BBDAF2C991CF30094D793 /* Build configuration list for PBXNativeTarget "SimpleToDoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4BBDB02C991CF30094D793 /* Debug */,
+				2E4BBDB12C991CF30094D793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E4BBD8E2C991CF20094D793 /* SimpleToDo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E4BBD8F2C991CF20094D793 /* SimpleToDo.xcdatamodel */,
+			);
+			currentVersion = 2E4BBD8F2C991CF20094D793 /* SimpleToDo.xcdatamodel */;
+			path = SimpleToDo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E4BBD782C991CF10094D793 /* Project object */;
+}
